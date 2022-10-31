@@ -1,5 +1,8 @@
 {
-  "name": "react-commons",
+  "name": "@nsaravanan27/react-commons",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nsaravanan27"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -35,8 +38,8 @@
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
     "rollup-plugin-postcss": "^4.0.1",
@@ -44,6 +47,10 @@
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "files": [
     "dist"
